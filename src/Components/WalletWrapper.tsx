@@ -1,7 +1,7 @@
 import { RequestAirdrop } from './index';
 import { ShowBalance } from './Balances';
 import SendTransaction from './sendTransaction';
-import { WalletModalProvider,WalletConnectButton,WalletMultiButton, WalletDisconnectButton } from '@solana/wallet-adapter-react-ui'
+import { WalletMultiButton, WalletDisconnectButton } from '@solana/wallet-adapter-react-ui'
 import { useWallet } from '@solana/wallet-adapter-react';
 import { useEffect, useState } from 'react';
 import type { PublicKey } from '@solana/web3.js';
