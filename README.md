@@ -24,8 +24,3 @@ Sign arbitrary text messages with your wallet
 
 Verify signatures locally with @noble/curves/ed25519
 
-🎨 UI/UX
-
-Built with React + Tailwind CSS
-
-Gradient text, responsive layout, styled input boxes
