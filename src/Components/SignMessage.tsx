@@ -1,6 +1,6 @@
 import { ed25519 } from "@noble/curves/ed25519.js";
 import { useWallet } from "@solana/wallet-adapter-react";
-import { useRef } from "react"
+import { useRef } from "react";
 import InputBox from "../UI/inputBox";
 
 

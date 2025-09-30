@@ -1,7 +1,7 @@
-import { useConnection,useWallet } from "@solana/wallet-adapter-react"
+import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 
-import { LAMPORTS_PER_SOL,PublicKey,SystemProgram,Transaction } from "@solana/web3.js"
-import { useRef } from "react"
+import { LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction } from "@solana/web3.js";
+import { useRef } from "react";
 import InputBox from "../UI/inputBox";
 
 export default function SendTransaction(){
